@@ -1,0 +1,177 @@
+ Django beginner tutorial - Make polling website
+
+https://docs.djangoproject.com/en/5.1/intro/tutorial02/
+
+-- *start of Part 2 commands (didnt think to do this at part 1)* --
+ history Command from 10/2/2024 (WED) -- 10:49 AM
+ sudo apt update
+   2  sudo apt install python3-pip
+   3  pip
+   4  mkdir src
+   5  code src
+   6  ls
+   7  cd src
+   8  ls
+   9  cd django-tutorial
+   10  ls
+   11  cd mysite
+   12  ls
+   13  pyhton manage.py runserver
+   14  pyhton3 manage.py runserver
+   15  python manage.py runserver
+   16  python3 manage.py runserver
+   17  ls
+   18  ..
+   19  cd..
+   20  cd
+   21  ls
+   22  python3 manage.py runserver
+   23  cd mysite
+   24  ls
+   25  cd src
+   26  ls
+   27  cd mysite
+   28  clear
+   29  django-admin startproject mysite
+   30  source venv/bin/activate
+   31  python -m django --version
+   32  python3 -m django --version
+   33  python -m django --version
+   34  python3 -m django --version
+   35  sudo apt install python3-pip
+   36  python -m django --version
+   37  python3 -m django --version
+   38  python -m pip install Django
+   39  python3 -m pip install Django
+   40  python3 -m django --version
+   41  django-admin startproject mysite
+   42  ls
+   43  cd mysite
+   44  python manage.py runserver
+   45  python3 manage.py runserver
+   46  ls
+   47  python3 manage.py runserver
+   48  python3 manage.py startapp polls
+   49  python3 manage.py runserver
+   50  cd mysite
+   51  ls
+   52  cd django-tutorial/mysite
+   53  ls
+   54  pyhton3 manage.py runserver
+   55  pyhton manage.py runserver
+   56  mysite  manage.py runserver
+   57  python manage.py runserver
+   58  clear
+   59  python3 manage.py runserver
+   60  history
+ !! End history code from 10/2/2024 (WED) -- 10:49 am
+
+ history terminal code from 10/2/2024 (WED) -- 2:28 pm
+   1  sudo apt update
+   2  sudo apt install python3-pip
+   3  pip
+   4  mkdir src
+   5  code src
+   6  ls
+   7  cd src
+   8  ls
+   9  cd django-tutorial
+   10  ls
+   11  cd mysite
+   12  ls
+   13  pyhton manage.py runserver
+   14  pyhton3 manage.py runserver
+   15  python manage.py runserver
+   16  python3 manage.py runserver
+   17  ls
+   18  ..
+   19  cd..
+   20  cd
+   21  ls
+   22  python3 manage.py runserver
+   23  cd mysite
+   24  ls
+   25  cd src
+   26  ls
+   27  cd mysite
+   28  clear
+   29  django-admin startproject mysite
+   30  source venv/bin/activate
+   31  python -m django --version
+   32  python3 -m django --version
+   33  python -m django --version
+   34  python3 -m django --version
+   35  sudo apt install python3-pip
+   36  python -m django --version
+   37  python3 -m django --version
+   38  python -m pip install Django
+   39  python3 -m pip install Django
+   40  python3 -m django --version
+   41  django-admin startproject mysite
+   42  ls
+   43  cd mysite
+   44  python manage.py runserver
+   45  python3 manage.py runserver
+   46  ls
+   47  python3 manage.py runserver
+   48  python3 manage.py startapp polls
+   49  python3 manage.py runserver
+   50  cd django-tutorial/mysite
+   51  ls
+   52  python3 manage.py runserver
+   53  python3 manage.py migrate
+   54  python3 manage.py makemigration polls
+   55  python3 manage.py makemigrations polls
+   56  python3 manage.py sqlmigrate polls 0001
+   57  python3 manage.py migrate
+   58  python3 manage.py shell
+   59  python3 manage.py makemigration polls
+   60  python3 manage.py makemigrations polls
+   61  python3 manage.py sqlmigrate polls 0001
+   62  python3 manage.py migrate
+   63  python3 manage.py shell
+   64  history @ 3:23pm
+   python3 manage.py createsuperuser (adminEX, adminEX@tutorial.com, 123456)(U/E/P)
+   python manage.py createsuperuser
+   66  python3 manage.py createsuperuser
+   67  python3 manage.py runserver
+   68  history @ 3:44  -- alot done in python shell
+   FOR after runserver:
+   **--> admin web:  http://127.0.0.1:8000/admin/
+   **--> reg web:  http://127.0.0.1:8000/
+ -- End of Part 2 of 8 (+)
+
+--* Begin part 3 *--
+
+ --* End part 3 *-- >>No terminal commands in part 3 -- 10/2/2024 (WED) @ 4:39pm
+
+--* Begin Part 4 *-- Friday 10/4/2024 (7:30pm)
+ -> no termimal Commands in part 4
+  --* End Part 4 *-- Monday 10/7/2024 (2:30pm)
+  
+--* Begin Part 5 *-- Monday 10/7/2024 (2:30pm)
+ -> introducing automated testing
+   56  history
+   57  clear
+   58  python3 manage.py shell
+   59  python manage.py test polls
+   60  python3 manage.py shell
+   61  history
+ --* End part 5 *-- Monday 10/7/2024 (4:02PM)
+
+--* Begin Part 6 *-- Monday 10/7/2024 (4:03pm)
+ -> Customizing apps UI and UX
+ --* End of part 6 *-- Monday 10/7/2024 (4:25pm)
+
+--* Begin Part 7 *-- Monday 10/14/2024 (8:54am)
+ --> No commands in term
+ --* End part 7 *--
+ 
+--* Begin part 8 *-- Wednesday 10/16/2024 (8:50am)
+ --> python3 -m pip install django-debug-toolbar -> installs 3rd party package by Jazzband, helps understand how application functions and to identify problems
+  __> go to dejango debug toolbar instalation guide from p8. https://django-debug-toolbar.readthedocs.io/en/latest/installation.html
+ --* end part 8 *-- Wednesday 10/16/2024 (9:35am)
+ 
+ --__ End of Django Tutorial __ **
+ 
+--__ Begin advanced tutorial - reuseability and packaging __-- (More practice later)
