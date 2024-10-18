@@ -1,4 +1,4 @@
-^C(venv) jroberson@LAPTOP-M7J6UPR7:~/src/django-tutorial/mysite$ history
+^C(venv) ~/src/django-tutorial/mysite$ history
     1  pip install django
     2  pip uninstall django
     3  mkdir django
@@ -15,4 +15,4 @@
    14  cd mysite
    15  python manage.py runserver
    16  history
-(venv) jroberson
+(venv) jr
